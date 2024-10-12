@@ -1,0 +1,33 @@
+{
+    "title": "DMC - Créateur de Macro Deadlock",
+    "language_selector": "Choisir la langue",
+    "keyboard_layout": "Disposition du clavier",
+    "assign_key": "Attribuer une touche à la macro",
+    "press_key": "Appuyez sur une touche...",
+    "generate_macro": "Générer la macro",
+    "macro_copied": "Macro copiée dans le presse-papiers.",
+    "macro_copy_fail": "Échec de la copie dans le presse-papiers.",
+    "macro_summary": "Résumé de la macro :",
+    "tutorial_instructions": "La macro a été copiée dans votre presse-papiers. Pour l'utiliser dans Deadlock :",
+    "tutorial_steps": [
+      "Ouvrez la console dans Deadlock (appuyez sur F7 ou ~).",
+      "Collez la macro dans la console et appuyez sur Entrée.",
+      "Utilisez la touche assignée pour exécuter la macro dans le jeu."
+    ],
+    "key_not_mapped": "Cette touche n'est pas mappée en AZERTY.",
+    "assign_key_before_macro": "Veuillez attribuer une touche avant de générer la macro.",
+    "items": "Objets (emplacements)",
+    "sorts": "Sorts (emplacements)",
+    "actions": {
+      "+in_ability1": "Utilise le sort 1",
+      "+in_ability2": "Utilise le sort 2",
+      "+in_ability3": "Utilise le sort 3",
+      "+in_ability4": "Utilise le sort 4",
+      "+in_item1": "Utilise l'objet 1",
+      "+in_item2": "Utilise l'objet 2",
+      "+in_item3": "Utilise l'objet 3",
+      "+in_item4": "Utilise l'objet 4",
+      "+attack": "Effectue une attaque"
+    }
+  }
+  

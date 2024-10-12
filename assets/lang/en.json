@@ -1,0 +1,33 @@
+{
+    "title": "DMC - Deadlock Macro Creator",
+    "language_selector": "Choose Language",
+    "keyboard_layout": "Keyboard Layout",
+    "assign_key": "Assign Macro to a Key",
+    "press_key": "Press a key...",
+    "generate_macro": "Generate Macro",
+    "macro_copied": "Macro copied to clipboard.",
+    "macro_copy_fail": "Failed to copy to clipboard.",
+    "macro_summary": "Macro Summary:",
+    "tutorial_instructions": "The macro has been copied to your clipboard. To use it in Deadlock:",
+    "tutorial_steps": [
+      "Open the console in Deadlock (press F7 or ~).",
+      "Paste the macro in the console and press Enter.",
+      "Use the assigned key to execute the macro in-game."
+    ],
+    "key_not_mapped": "This key is not mapped in AZERTY.",
+    "assign_key_before_macro": "Please assign a key before generating the macro.",
+    "items": "Items (slots)",
+    "sorts": "Spells (slots)",
+    "actions": {
+      "+in_ability1": "Uses ability 1",
+      "+in_ability2": "Uses ability 2",
+      "+in_ability3": "Uses ability 3",
+      "+in_ability4": "Uses ability 4",
+      "+in_item1": "Uses item 1",
+      "+in_item2": "Uses item 2",
+      "+in_item3": "Uses item 3",
+      "+in_item4": "Uses item 4",
+      "+attack": "Performs an attack"
+    }
+  }
+  

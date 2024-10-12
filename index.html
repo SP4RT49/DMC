@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMC - Créateur de Macro Deadlock</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">DMC - Créateur de Macro Deadlock</h1>
+
+    <!-- Paramètres généraux -->
+    <div class="settings">
+      <!-- Sélection de la langue -->
+      <label for="languageSelector" id="languageSelectorLabel">Choose Language:</label>
+      <select id="languageSelector">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+      </select>
+
+      <!-- Disposition du clavier -->
+      <div class="setting-item">
+        <label for="keyboardLayout" id="selectKeyboard">Keyboard Layout:</label>
+        <select id="keyboardLayout">
+          <option value="azerty">AZERTY</option>
+          <option value="qwerty">QWERTY</option>
+        </select>
+      </div>
+    </div>
+
+    <h2 id="assignKey">Attribuer la Macro à une Touche</h2>
+    <input type="text" id="pressKey" placeholder="Appuyez sur une touche..." readonly>
+    <pre id="assignedKeyOutput"></pre>
+
+    <!-- Sélection des actions de sorts et d'items -->
+    <div class="macro-actions">
+      <div class="actions-section">
+        <h3 id="sortsLabel">Sorts</h3>
+        <div class="icons">
+          <div id="sort1" class="icon"><img src="./assets/img/spell1.png" alt=""><span class="number">1</span></div>
+          <div id="sort2" class="icon"><img src="./assets/img/spell2.png" alt=""><span class="number">2</span></div>
+          <div id="sort3" class="icon"><img src="./assets/img/spell3.png" alt=""><span class="number">3</span></div>
+          <div id="sort4" class="icon"><img src="./assets/img/spell4.png" alt=""><span class="number">4</span></div>
+        </div>
+      </div>
+
+      <div class="actions-section">
+        <h3 id="itemsLabel">Items</h3>
+        <div class="icons">
+          <div id="item1" class="icon"><img src="./assets/img/item1.png" alt=""><span class="number">1</span></div>
+          <div id="item2" class="icon"><img src="./assets/img/item2.png" alt=""><span class="number">2</span></div>
+          <div id="item3" class="icon"><img src="./assets/img/item3.png" alt=""><span class="number">3</span></div>
+          <div id="item4" class="icon"><img src="./assets/img/item4.png" alt=""><span class="number">4</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Génération de la macro et affichage -->
+    <div class="generate-section">
+      <button id="generateMacro" class="button-primary">Générer la Macro</button>
+      <pre id="macroOutput" class="macro-output"></pre>
+    </div>
+
+    <!-- Résumé de la Macro -->
+    <div id="macroExplanation" class="macro-explanation"></div>
+
+    <!-- Tutoriel -->
+    <div id="tutorial" class="tutorial"></div>
+
+    <!-- Messages de Statut -->
+    <div id="statusMessage" class="status-message"></div>
+  </div>
+
+  <script type="module" src="renderer.js"></script>
+</body>
+</html>

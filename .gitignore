@@ -1,0 +1,14 @@
+# Exclude node_modules directory
+node_modules/
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+bower_components/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

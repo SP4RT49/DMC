@@ -1,0 +1,33 @@
+{
+    "title": "DMC - Creador de Macros Deadlock",
+    "language_selector": "Elegir idioma",
+    "keyboard_layout": "Disposición del teclado",
+    "assign_key": "Asignar una tecla a la macro",
+    "press_key": "Presiona una tecla...",
+    "generate_macro": "Generar Macro",
+    "macro_copied": "Macro copiada al portapapeles.",
+    "macro_copy_fail": "Error al copiar al portapapeles.",
+    "macro_summary": "Resumen de la macro:",
+    "tutorial_instructions": "La macro ha sido copiada al portapapeles. Para usarla en Deadlock:",
+    "tutorial_steps": [
+      "Abre la consola en Deadlock (presiona F7 o ~).",
+      "Pega la macro en la consola y presiona Enter.",
+      "Usa la tecla asignada para ejecutar la macro en el juego."
+    ],
+    "key_not_mapped": "Esta tecla no está mapeada en AZERTY.",
+    "assign_key_before_macro": "Asigna una tecla antes de generar la macro.",
+    "items": "Objetos",
+    "sorts": "Hechizos",
+    "actions": {
+      "+in_ability1": "Usa la habilidad 1",
+      "+in_ability2": "Usa la habilidad 2",
+      "+in_ability3": "Usa la habilidad 3",
+      "+in_ability4": "Usa la habilidad 4",
+      "+in_item1": "Usa el objeto 1",
+      "+in_item2": "Usa el objeto 2",
+      "+in_item3": "Usa el objeto 3",
+      "+in_item4": "Usa el objeto 4",
+      "+attack": "Realiza un ataque"
+    }
+  }
+  
